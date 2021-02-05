@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adf2e448-8d44-4d53-aecf-e19dbd7c3f97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Andrzej-Sapkowski.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo-serie.jpg" afterDir="false" />
+    <list default="true" id="adf2e448-8d44-4d53-aecf-e19dbd7c3f97" name="Default Changelist" comment="création :&#10;img logo, andrzej&#10;citation">
+      <change afterPath="$PROJECT_DIR$/img/Image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-netflix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tableau-adaptation.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-série.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/titre-logo-série.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612512394799</updated>
-      <workItem from="1612512395964" duration="2853000" />
+      <workItem from="1612512395964" duration="5544000" />
     </task>
     <task id="LOCAL-00001" summary="Création du projet">
       <created>1612514001012</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612514630386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="création :&#10;img logo, andrzej&#10;citation">
+      <created>1612515404399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612515404399</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Création du projet" />
     <MESSAGE value="création :&#10;lien css&#10;fichier img&#10;index header, logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="création :&#10;lien css&#10;fichier img&#10;index header, logo" />
+    <MESSAGE value="création :&#10;img logo, andrzej&#10;citation" />
+    <option name="LAST_COMMIT_MESSAGE" value="création :&#10;img logo, andrzej&#10;citation" />
   </component>
 </project>
