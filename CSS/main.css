@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,200;0,500;1,200;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Texturina ', serif;
+    line-height: 1.4;
+    background-color: #B2B5BD;
+    color:#0A0A0A;
+    font-size: 100%;
+}
+
+a {
+    color:#e71d36;
+    text-decoration:none;
+}
+
+a:hover {
+}
+
+/***************************
+header
+ ***************************/
+
+header {
+    background-color: #0A0A0A;
+}
+
+header .titre-serie {
+    height: 8rem;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/***************************
+main
+ ****************************/
+
+main {
+
+}
+
+.titre-accueil {
+    padding: 10px;
+    text-align: center;
+    background-color:#ffff;
+}
+
+.titre-accueil h1 {
+    font-size: 1em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.logo-serie {
+    position: absolute;
+    display:block;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.bienvenue {
+    color: #ffff;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
