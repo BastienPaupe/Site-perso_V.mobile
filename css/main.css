@@ -59,26 +59,36 @@ page-index
 
 .logo {
     background-color: #0A0A0A;
-    z-index: 1;
+    padding-bottom: 2em;
 }
 
 .logo-serie {
-    position: absolute;
-    height: 35%;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bienvenue {
     color: #ffff;
+    top: 29em;
     position: absolute;
     z-index: 2;
-    margin-top: 9rem;
     text-align: center;
+    margin-left: 3rem;
 }
 
-.auteur {
+.contenu {
+    background-color:#b2b5bd ;
+}
+
+.contenu .adaptation {
+    display: inline-block;
+}
+.contenu .auteur {
     display: inline-block;
 }
 
-.auteur .andrzej {
-    width: 4rem;
+.andrzej{
+    width: 3rem;
 }

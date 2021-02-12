@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adf2e448-8d44-4d53-aecf-e19dbd7c3f97" name="Default Changelist" comment="" />
+    <list default="true" id="adf2e448-8d44-4d53-aecf-e19dbd7c3f97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +66,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612512394799</updated>
-      <workItem from="1612512395964" duration="12636000" />
+      <workItem from="1612512395964" duration="12935000" />
+      <workItem from="1612622240120" duration="173000" />
+      <workItem from="1613115089110" duration="10271000" />
     </task>
     <task id="LOCAL-00001" summary="Création du projet">
       <created>1612514001012</created>
@@ -99,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612525026702</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="css header&#10;début main">
+      <created>1612528266632</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612528266632</updated>
+    </task>
+    <task id="LOCAL-00007" summary="titre h1 fini">
+      <created>1613122101859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613122101859</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +133,7 @@
     <MESSAGE value="création :&#10;img logo, andrzej&#10;citation" />
     <MESSAGE value="création :&#10;texet adaptation&#10;pied de page" />
     <MESSAGE value="css header&#10;début main" />
-    <option name="LAST_COMMIT_MESSAGE" value="css header&#10;début main" />
+    <MESSAGE value="titre h1 fini" />
+    <option name="LAST_COMMIT_MESSAGE" value="titre h1 fini" />
   </component>
 </project>
