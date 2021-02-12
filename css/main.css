@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,200;0,500;1,200;1,300&display=swap');
-
+/**************************
+Générale
+***************************/
 *{
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Texturina ', serif;
+    font-family:"Texturina 18pt ExtraLight"
     line-height: 1.4;
-    background-color: #B2B5BD;
+    background-color: #ffff;
     color:#0A0A0A;
     font-size: 100%;
 }
 
 a {
     color:#e71d36;
+    font-family:"Texturina 36pt Light";
     text-decoration:none;
 }
 
@@ -25,11 +28,13 @@ header
  ***************************/
 
 header {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     background-color: #0A0A0A;
 }
 
 header .titre-serie {
-    height: 8rem;
+    height: 6rem;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -38,33 +43,42 @@ header .titre-serie {
 main
  ****************************/
 
-main {
-
-}
-
 .titre-accueil {
-    padding: 10px;
     text-align: center;
     background-color:#ffff;
 }
 
 .titre-accueil h1 {
-    font-size: 1em;
-    margin-left: 2%;
-    margin-right: 2%;
+    font-family:"Texturina 48pt Medium";
+    font-size: 48px;
+}
+
+/************************
+page-index
+**************************/
+
+.logo {
+    background-color: #0A0A0A;
+    z-index: 1;
 }
 
 .logo-serie {
     position: absolute;
-    display:block;
     height: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1;
 }
+
 .bienvenue {
     color: #ffff;
     position: absolute;
     z-index: 2;
+    margin-top: 9rem;
     text-align: center;
+}
+
+.auteur {
+    display: inline-block;
+}
+
+.auteur .andrzej {
+    width: 4rem;
 }
