@@ -64,7 +64,7 @@ Page-index
 
 .logo {
     background-color: #0A0A0A;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 .logo-serie {
@@ -76,7 +76,7 @@ Page-index
 
 .bienvenue {
     color: #ffff;
-    top: 27em;
+    top:65%;
     position: absolute;
     z-index: 2;
     text-align: center;
@@ -95,14 +95,13 @@ Page-index
     z-index: 1;
 }
 
-.auteur{
-    z-index: 2;
-}
-
 .andrzej{
     width: 7rem;
-    border-radius: 100px;
     border: 4px solid #0A0A0A;
+    border-radius: 100px;
+    margin-top: 1em;
+    margin-left: 60%;
+    z-index: 2;
 }
 
 .citation{
@@ -116,8 +115,11 @@ Page-index
 }
 
 .affiche img{
-    height: 10em;
+    display: block;
+    height: 12em;
     border: 1px solid #8497ae;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 95px;
 }
 
@@ -152,5 +154,29 @@ tr th,tr td {
 table thead tr{
     color: white;
     font-weight: bold;
+    background-color: #8497ae;
+}
+
+.tlivre1{
+    color: white;
     background-color: #0A0A0A;
+}
+
+.tlivre2 {
+    background-color:#b2b5bd;
+}
+
+.livre{
+    padding: 1em;
+    margin: 2em;
+    background: #dedada;
+    border-radius: 90px;
+    text-align: center;
+}
+
+.couvertureLivre{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
