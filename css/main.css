@@ -59,6 +59,23 @@ h2, h3{
 }
 
 /************************
+Footer
+************************/
+
+footer{
+    background-color: #0A0A0A;
+}
+
+footer div{
+    text-align: center;
+    background-color: white;
+    border-radius: 80px;
+}
+footer div .logo-netflix{
+    display: inline-block;
+}
+
+/************************
 Page-index
 **************************/
 
@@ -179,4 +196,13 @@ table thead tr{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.siteaide{
+    color: white;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+    background-color: #0A0A0A;
+    border-radius: 80px;
 }
