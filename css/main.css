@@ -64,15 +64,24 @@ Footer
 
 footer{
     background-color: #0A0A0A;
+    padding: 2em;
 }
 
 footer div{
     text-align: center;
     background-color: white;
-    border-radius: 80px;
+    border-radius: 90px;
 }
-footer div .logo-netflix{
+
+footer div p{
     display: inline-block;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+footer div .logo-netflix{
+    display: inline;
+    height: 6em;
 }
 
 /************************
@@ -101,6 +110,7 @@ Page-index
 
 .contenu {
     background-color:#b2b5bd ;
+    padding-bottom: 1em;
 }
 
 .adaptation{
@@ -200,7 +210,10 @@ table thead tr{
 
 .siteaide{
     color: white;
-    margin: 2em;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em;
     padding: 1em;
     text-align: center;
     background-color: #0A0A0A;
