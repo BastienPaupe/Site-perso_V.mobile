@@ -143,7 +143,7 @@ Page-index
 
 .affiche img{
     display: block;
-    height: 12em;
+    width: 90%;
     border: 1px solid #8497ae;
     margin-left: auto;
     margin-right: auto;
@@ -156,6 +156,7 @@ p.saison {
 }
 
 table{
+    margin: 1em;
     border: #0A0A0A solid 3px;
     border-collapse: collapse;
     empty-cells: hide;
@@ -210,12 +211,59 @@ table thead tr{
 
 .siteaide{
     color: white;
-    margin-top: 2em;
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-bottom: 1em;
+    margin: 2em 2em 1em;
     padding: 1em;
     text-align: center;
     background-color: #0A0A0A;
     border-radius: 80px;
+}
+
+/***************************
+Page : fiche technique
+***************************/
+
+.synopsis{
+    padding: 1em;
+    background-image: url("../img/Parchemain.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.synopsis p {
+    text-align: justify;
+    margin: 2em;
+}
+
+.fond-noire{
+    padding-bottom: 1em;
+    background-color: #0A0A0A;
+}
+
+figure .geralt{
+    margin-top: 2em;
+    width: 100%;
+    border-radius: 80px;
+}
+figure figcaption {
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
+
+div .fiche-technique{
+    margin: 2em;
+    border: #8497ae 5px solid;
+    background-color: #b2b5bd;
+}
+div .yennefer{
+    height: 15em;
+    margin: 2em auto;
+    display: block;
+    padding-left: 0;
+    border-radius: 120px;
+}
+
+div.fiche-technique p {
+    text-align: center;
+    font-size: 1em;
 }
