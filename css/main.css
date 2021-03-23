@@ -267,3 +267,24 @@ div.fiche-technique p {
     text-align: center;
     font-size: 1em;
 }
+/*********************
+Page : critique
+*********************/
+
+main.page-critique{
+    background-color: #b2b5bd;
+}
+
+table.critique{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ciri{
+    width: 80%;
+}
+
+div.sortie{
+    margin: 2em;
+    text-align: center;
+}
