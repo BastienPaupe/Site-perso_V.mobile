@@ -50,6 +50,7 @@ Main
 }
 
 .titre-accueil h1 {
+    padding-bottom: 1em;
     font-family: "Texturina 48pt Medium", sans-serif;
     font-size: 48px;
 }
@@ -224,7 +225,7 @@ Page : fiche technique
 
 .synopsis{
     padding: 1em;
-    background-image: url("../img/Parchemain.jpg");
+    background-image: url("../img/parchemain.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -271,8 +272,15 @@ div.fiche-technique p {
 Page : critique
 *********************/
 
+
+
 main.page-critique{
+    padding-bottom: 2em;
     background-color: #b2b5bd;
+}
+
+main.page-critique p.texte-critique {
+    margin:1em 2em;
 }
 
 table.critique{
@@ -280,11 +288,30 @@ table.critique{
     margin-right: auto;
 }
 
-.ciri{
-    width: 80%;
+table.critique tbody td{
+    background-color: #ffffff;
 }
 
-div.sortie{
+.ciri{
+    width: 90%;
+    border: #0A0A0A solid 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.sortie {
     margin: 2em;
-    text-align: center;
+    padding: 1em;
+    border: #0A0A0A solid 2px;
+    text-align: justify;
+    background-color: #8497ae;
+}
+.wild-hunt{
+    width: 60%;
+    border: #0A0A0A solid 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
 }
